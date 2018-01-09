@@ -12,7 +12,7 @@ function forLoop(arrayInput) {
 
 function whileLoop(num) {
   while (num) {
-    console.log(num--lfe);
+    console.log(num--);
   }
   return "done";
 }
