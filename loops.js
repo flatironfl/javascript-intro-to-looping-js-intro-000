@@ -25,7 +25,7 @@ function doWhileLoop(arrayInput) {
     // if array initially empty, but test array at condition to stop on 
     // empty array.  
     array.Input.pop(); 
-  } while ((Math.random() >= 0.5) && (array.length));
+  } while ((Math.random() >= 0.5) && (arrayInput.length));
   
   return arrayInput;
 }
