@@ -11,8 +11,8 @@ function forLoop(arrayInput) {
 }
 
 function whileLoop(num) {
-  while (num--) {
-    console.log(num);
+  while (num) {
+    console.log(num--);
   }
   return "done";
 }
