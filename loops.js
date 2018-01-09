@@ -19,7 +19,8 @@ function whileLoop(num) {
 
 function doWhileLoop(arrayInput) {
   do {
-    If arrayInput.length
+    if (arrayInput.length) { // array has items
       array.Input.pop(); // specs didn't say remove from front or back; did back
+    }
   } while (maybeTrue());
 }
