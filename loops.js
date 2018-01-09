@@ -22,5 +22,5 @@ function doWhileLoop(arrayInput) {
     if (arrayInput.length) { // array has items
       array.Input.pop(); // specs didn't say remove from front or back; did back
     }
-  } while (maybeTrue());
+  } while (Math.random() >= 0.5);
 }
